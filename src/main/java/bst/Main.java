@@ -26,6 +26,8 @@ public class Main {
         Account myAccount = new CommercialAccount("234-56-788", myCustomer, "PA-2345");
         myCustomer.setAccount(myAccount);
 
+
+
         // Check if it is in the tree
         System.out.print("The customer ");
         if (customers.contains(myCustomer)) {
@@ -33,7 +35,6 @@ public class Main {
         } else {
             System.out.println("was not found");
         }
-
         // Test removal
         customers.remove(myCustomer);
         System.out.print("After remove, the customer ");
